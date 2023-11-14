@@ -8,6 +8,7 @@ import it.unibo.bank.api.AccountHolder;
 public class StrictBankAccount extends SimpleBankAccount {
 
     public static final double TRANSACTION_FEE = 0.1;
+    public static final double MANAGEMENT_FEE = 1.0;
 
     public StrictBankAccount(final AccountHolder accountHolder, final double balance) {
         super(accountHolder, balance);
